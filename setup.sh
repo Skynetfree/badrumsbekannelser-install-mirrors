@@ -19,4 +19,4 @@ sed -i "\$a@xset s off\n@xset -dpms\n@xset s noblank" /home/pi/.config/lxsession
 
 touch /home/pi/mirroruuid
 
-vi /home/pi/mirroruuid
+nano /home/pi/mirroruuid
