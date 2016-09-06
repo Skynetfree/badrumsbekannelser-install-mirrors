@@ -17,6 +17,6 @@ sed -i 's/#@xscreensaver -no-splash/@xscreensaver -no-splash/g' /home/pi/.config
 sed -i 's/@pcmanfm --desktop/@pcmanfm --desktop-off/g' /home/pi/.config/lxsession/LXDE-pi/autostart
 sed -i "\$a@xset s off\n@xset -dpms\n@xset s noblank" /home/pi/.config/lxsession/LXDE-pi/autostart
 
-touch /home/pi/mirroruuid
+# touch /home/pi/mirroruuid
 
-nano /home/pi/mirroruuid
+# nano /home/pi/mirroruuid
